@@ -104,6 +104,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
+  s.resources = "TestPod/**/*.{storyboard}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
