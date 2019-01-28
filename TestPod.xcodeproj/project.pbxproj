@@ -11,6 +11,7 @@
 		FBE9D2A921FEE63700E587F4 /* TestPod.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE9D2A721FEE63700E587F4 /* TestPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBE9D2B121FEEB6B00E587F4 /* sdk.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE9D2B021FEEB6B00E587F4 /* sdk.storyboard */; };
 		FBE9D2B321FEED4500E587F4 /* SubmitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9D2B221FEED4500E587F4 /* SubmitVC.swift */; };
+		FBE9D2D321FEFECE00E587F4 /* TestPodShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9D2D221FEFECE00E587F4 /* TestPodShared.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FBE9D2A821FEE63700E587F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBE9D2B021FEEB6B00E587F4 /* sdk.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = sdk.storyboard; sourceTree = "<group>"; };
 		FBE9D2B221FEED4500E587F4 /* SubmitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitVC.swift; sourceTree = "<group>"; };
+		FBE9D2D221FEFECE00E587F4 /* TestPodShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPodShared.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				FBE9D2B021FEEB6B00E587F4 /* sdk.storyboard */,
 				FBE9D2B221FEED4500E587F4 /* SubmitVC.swift */,
+				FBE9D2D221FEFECE00E587F4 /* TestPodShared.swift */,
 			);
 			path = "SDK Files";
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE9D2D321FEFECE00E587F4 /* TestPodShared.swift in Sources */,
 				FBE9D2B321FEED4500E587F4 /* SubmitVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

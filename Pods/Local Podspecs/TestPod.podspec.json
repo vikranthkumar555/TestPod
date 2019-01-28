@@ -1,0 +1,30 @@
+{
+  "name": "TestPod",
+  "version": "0.1.0",
+  "summary": "TestPod is a pod for testing.",
+  "homepage": "https://github.com/vikranthkumar555/TestPod.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vikranth Kumar": "vikranth@konnectshift.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/vikranthkumar555/TestPod.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "TestPod/**/*.{swift}",
+  "resources": "TestPod/**/*.{storyboard}",
+  "frameworks": "UIKit",
+  "requires_arc": true,
+  "dependencies": {
+    "DGActivityIndicatorView": [
+      "~> 2.1.1"
+    ]
+  },
+  "swift_version": "4.2"
+}

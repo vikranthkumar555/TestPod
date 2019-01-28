@@ -1,16 +1,30 @@
 PODS:
   - DGActivityIndicatorView (2.1.1)
+  - TestPod (0.1.0):
+    - DGActivityIndicatorView (~> 2.1.1)
 
 DEPENDENCIES:
   - DGActivityIndicatorView
+  - TestPod (from `https://github.com/vikranthkumar555/TestPod.git`, branch `master`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - DGActivityIndicatorView
 
+EXTERNAL SOURCES:
+  TestPod:
+    :branch: master
+    :git: https://github.com/vikranthkumar555/TestPod.git
+
+CHECKOUT OPTIONS:
+  TestPod:
+    :commit: 3f994807f67001e173b5aa1bed05c38cede0a8d7
+    :git: https://github.com/vikranthkumar555/TestPod.git
+
 SPEC CHECKSUMS:
   DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+  TestPod: 8b49c8e441ee23ec35700679dfc61a2f6a3abdc6
 
-PODFILE CHECKSUM: f70b2d980268df326d81642ea11bd04ba947f92b
+PODFILE CHECKSUM: e11d2717de852c7e90e460dc1079cdb2b4a64bd7
 
 COCOAPODS: 1.5.3

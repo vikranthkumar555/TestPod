@@ -7,5 +7,6 @@ target 'TestPod' do
 
   # Pods for TestPod
   pod 'DGActivityIndicatorView'
+  pod 'TestPod', :git => 'https://github.com/vikranthkumar555/TestPod.git', :branch => 'master'
 
 end
