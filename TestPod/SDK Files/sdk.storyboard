@@ -13,7 +13,7 @@
         <!--SubmitVC-->
         <scene sceneID="ZuK-LR-gfD">
             <objects>
-                <viewController id="7L4-E6-ep6" customClass="SubmitVC" customModule="TestPod" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SubmitVC" id="7L4-E6-ep6" customClass="SubmitVC" customModule="TestPod" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bh8-Cp-WZl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SubmitVC: UIViewController {
+open class SubmitVC: UIViewController {
     
     var call: ((_ str: String) -> Void)?
     var presentingVC: UIViewController?
@@ -17,7 +17,7 @@ class SubmitVC: UIViewController {
     @IBOutlet weak var passwordTF: UITextField!
     
     
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
     }
     
@@ -35,8 +35,8 @@ class SubmitVC: UIViewController {
     
     
     
-    open class func presentController(on viewController: UIViewController, bundle: Bundle, callBack: @escaping (_ str: String) -> Void) {
-        let st = UIStoryboard(name: "sdk", bundle: bundle)
+    open class func presentController(on viewController: UIViewController, callBack: @escaping (_ str: String) -> Void) {
+        let st = UIStoryboard(name: "sdk", bundle: Bundle(for: SubmitVC.self))
         if let controller = st.instantiateViewController(withIdentifier: "SubmitVC") as? SubmitVC {
             controller.presentingVC = viewController
             controller.call = callBack
