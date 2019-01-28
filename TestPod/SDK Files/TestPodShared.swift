@@ -17,10 +17,10 @@ open class TestPodShared {
     
     func openSubmitVC(vc: UIViewController) {
         
-        let st = UIStoryboard(name: "sdk", bundle: nil)
-        if let vcss = st.instantiateViewController(withIdentifier: "SubmitVC") as? SubmitVC {
-            vc.present(vcss, animated: true, completion: nil)
-        }
+//        let st = UIStoryboard(name: "sdk", bundle: nil)
+//        if let vcss = st.instantiateViewController(withIdentifier: "SubmitVC") as? SubmitVC {
+//            vc.present(vcss, animated: true, completion: nil)
+//        }
     }
     
 }
